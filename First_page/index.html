@@ -4,9 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primul meu</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #D6EEEE;
+      }
+      </style>
   </head>
-  <body>
-    <h1>Buna ziua, draga tara!</h1>
+  <body style="background-color:powderblue;">
+      <h1>Buna ziua, draga tara!</h1>
     <p>
       Astazi vom discuta despre fructele preferate de majoritatea conationalilor
       nostri.
@@ -18,7 +33,11 @@
       <li>Piersici</li>
       <li>Mere</li>
     </ul>
-    <table border="1">
+    <p>
+      Voi ce fructe preferati??
+    </p>
+
+    <table style="width:80%">
       <th>Tari vizitate</th>
       <th>Anul</th>
       <th>Imagine</th>
@@ -55,6 +74,17 @@
           />
         </td>
       </tr>
+        </tr>
+        <tr>
+          <td>Italia</td>
+          <td>2016</td>
+          <td>
+            <img
+              src="Milano.jpg"
+              alt="Milano"
+              style="width: 250px; height: 250px"
+            />
+          </td>
         </tr>
     </table>
   </body>
